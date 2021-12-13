@@ -1,6 +1,4 @@
 # SpotmicroaiT
-It is based on spotmicroai
+This project is based on spotmicroai.
 
-test2
-
-test3
+Please to [README_cn](file:///README_cn.md) for details.
