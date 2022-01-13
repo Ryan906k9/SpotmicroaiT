@@ -106,6 +106,11 @@
 30. 发现前期的校准出现了问题，左右不平衡，会倒
 31. 猜测不稳的另一个原因是电流太小，如果该用 2 个 PCA9685 可能会有帮助
 32. 原来是连线出了问题，舵机被连到了 5v 的电压上，改连 7v 的电压，动作非常迅速，应该可以完成驱动任务了。所以这里的核心是需要准备 2 个 DC-DC 降压模块，第一个模块降到 7v 给舵机供电，第二个模块降到 5v 给树莓派和 LCD 供电。
+33. OSError: [Errno 30] Read-only file system 
+34. 脚能动起来，但是没法向前走，怀疑是左右的校准设反了，检查 motion_controller 代码
+35.  kernel:[  174.347518] EXT4-fs (mmcblk0p7): failed to convert unwritten extents to written extents -- potential data loss!  (inode 261715, error -30) 可能是电压不稳定造成的数据无法写入，因为程序一开始是可以的，运行了一会就会报这个错
+36. 一按 start 就不动了，怀疑是文件问题，查询后使用命令 sudo touch /forcefsck 可以改善，但是依然有 OSError: [Errno 5] Input/output error 报错
+37. 研究下来可能是 python 多线程问题，也有可能是文件系统在调试过程中被破坏了。这套方案问题还多，决定换一套架构来从头搭建。
 
 ## 4. 舵机校准
 
@@ -113,6 +118,7 @@
 
 1. import busio 报错
 2. 输入角度后舵机转动，但是这并没有完成校准
+3. 舵机运动了几次就和腿脱落了
 
 通过输入对应的角度尝试，让舵机转动到我们需要的 rest 时候的位置，然后记录下这个时候的角度值
 并将该值写入到 json 文件中
