@@ -111,6 +111,9 @@
 35.  kernel:[  174.347518] EXT4-fs (mmcblk0p7): failed to convert unwritten extents to written extents -- potential data loss!  (inode 261715, error -30) 可能是电压不稳定造成的数据无法写入，因为程序一开始是可以的，运行了一会就会报这个错
 36. 一按 start 就不动了，怀疑是文件问题，查询后使用命令 sudo touch /forcefsck 可以改善，但是依然有 OSError: [Errno 5] Input/output error 报错
 37. 研究下来可能是 python 多线程问题，也有可能是文件系统在调试过程中被破坏了。这套方案问题还多，决定换一套架构来从头搭建。
+38. 换了新的架构，需要键盘鼠标和显示器。。。。
+39. 搞齐了装备，发现 catkin_make 失败。查找了好几天，换了原版仓库里的文件依然失败，后来网上说要打开 i2c，结果还是失败，找不到 i2c/smbus.h 。然后发现，还是要用之前的文件，并且先打开 i2c 再编译。终于成功。
+40. 连着显示器的时候可以 ssh 连接，断开后发现怎么都连不上了，再找原因～～
 
 ## 4. 舵机校准
 
