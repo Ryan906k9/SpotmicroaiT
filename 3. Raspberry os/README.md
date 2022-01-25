@@ -23,11 +23,11 @@
   
 使用 macOS 系统，可以下载 balenaEtcher 进行烧录 .xz 镜像  
   
-  <img src="./figs/4.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/4.png" alt="1" width="100px" />
 
-  <img src="./figs/5.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/5.png" alt="1" width="100px" />
 
-  <img src="./figs/6.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/6.png" alt="1" width="100px" />
 
   <img src="./figs/7.png" alt="1" style="zoom:10%;" />
 
