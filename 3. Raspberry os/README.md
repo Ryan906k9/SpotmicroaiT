@@ -23,25 +23,25 @@
   
 使用 macOS 系统，可以下载 balenaEtcher 进行烧录 .xz 镜像  
   
-  <img src="./figs/4.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/4.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/5.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/5.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/6.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/6.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/7.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/7.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/8.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/8.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/9.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/9.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/10.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/10.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/11.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/11.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/12.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/12.png" alt="1" style="zoom:10%;" />
 
-  <img src="./figs/13.png" alt="1" style="zoom:15%;" />
+  <img src="./figs/13.png" alt="1" style="zoom:10%;" />
 
 
 
