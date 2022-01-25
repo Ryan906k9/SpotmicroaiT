@@ -13,35 +13,37 @@
 
 烧录之前，使用 SD Card Formatter 进行 SD 卡的格式化  
 
-<img src="./figs/1.png" alt="1" style="zoom:15%;" />
+<img src="./figs/1.png" alt="1" width="100px" />
   
-<img src="./figs/2.png" alt="1" style="zoom:15%;" />
+<img src="./figs/2.png" alt="1" width="250px" />
   
-<img src="./figs/3.png" alt="1" style="zoom:15%;" />
+<img src="./figs/3.png" alt="1" width="250px" />
+
+<img src="./figs/4.png" alt="1" width="250px" />
   
 如果是 Windows 系统，可以使用 Win32DiskImager 进行烧录，使用 .img 后缀的镜像文件  
   
 使用 macOS 系统，可以下载 balenaEtcher 进行烧录 .xz 镜像  
   
-  <img src="./figs/4.png" alt="1" width="100px" />
+
 
   <img src="./figs/5.png" alt="1" width="100px" />
 
-  <img src="./figs/6.png" alt="1" width="100px" />
+  <img src="./figs/6.png" alt="1" width="250px" />
 
-  <img src="./figs/7.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/7.png" alt="1" width="250px" />
 
-  <img src="./figs/8.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/8.png" alt="1" width="250px" />
 
-  <img src="./figs/9.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/9.png" alt="1" width="250px" />
 
-  <img src="./figs/10.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/10.png" alt="1" width="250px" />
 
-  <img src="./figs/11.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/11.png" alt="1" width="250px" />
 
-  <img src="./figs/12.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/12.png" alt="1" width="250px" />
 
-  <img src="./figs/13.png" alt="1" style="zoom:10%;" />
+  <img src="./figs/13.png" alt="1" width="250px" />
 
 
 
